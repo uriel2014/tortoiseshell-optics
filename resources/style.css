@@ -1,0 +1,43 @@
+/* STYLING */
+html{
+  font-size:18px;
+}
+
+body{
+  font-family:Helvetica;
+}
+
+
+/* MAIN IMAGE STYLING */
+.main-photo{
+  display:flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.main-photo .headline-content{
+  display:flex;
+  margin-top:1rem;
+  background-color: cadetblue;
+  color:white;
+  justify-content:space-between;
+}
+.main-photo .headline-content .logo img{
+  margin-left:2rem;
+  margin-right:1rem;
+  height:1.5rem;
+}
+.main-photo .headline-content .logo h3{
+  font-size:1rem;
+}
+
+.headline-content nav span{
+  padding:1rem, 2rem;
+}
+
+
+/*.main-photo .secondary-content{
+
+}*/
